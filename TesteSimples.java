@@ -2,10 +2,10 @@ class TesteSimples {
 
   public void executar(){
     Atleta atleta = new Atleta();
-    atleta.nome = "Diego Marcel";
-    atleta.idade = 19;
+    atleta.setNome("Diego Marcel");
+    atleta.setIdade(19);
 
-    System.out.println("Nome: "+atleta.nome);
-    System.out.println("Idade: "+atleta.idade);
+    System.out.println("Nome: "+atleta.getNome());
+    System.out.println("Idade: "+atleta.getIdade());
   }
 }
